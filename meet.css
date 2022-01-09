@@ -1,0 +1,145 @@
+*{
+    margin: 10px;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    width: 1000px;
+    height: 100px;
+    margin: auto;
+}
+
+.logo{
+    
+    color: #5f6368;
+   opacity: 1;
+    display: inline-block;
+    font-family: 'Product Sans',Arial,sans-serif;
+    font-size: 22px;
+    line-height: 24px;
+    padding-right:50px;
+    position: absolute;
+    top:30px;
+    vertical-align: right;
+    left:150px
+}
+.menu{
+    position:relative;
+    left:600px;
+
+    width: 1000px;
+    
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 5px;
+    margin-top: 0px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: #000000;
+    font-family: Arial;
+}
+ul li a:hover{
+    color:RGB(221, 65, 36);
+}
+.button{
+    width: 200px;
+    height: 40px;
+    background: blue;
+    border: blue;;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.button:hover{
+    color: #000;
+}
+.button:focus{
+    outline: none;
+}
+.i{
+    position:absolute;
+    right: 200px;
+    top:100px;
+}
+.link{
+    position: absolute;
+    right: 150px;
+    top:450px;
+    font-family: Arial;
+    
+}
+.p1{
+    font-family: 'Google Sans Display',Roboto,Arial,sans-serif;
+font-size: 2.75rem;
+font-weight: 400;
+letter-spacing: 0;
+line-height: 3.25rem;
+padding-bottom: .5em;
+}
+.p2{
+    font-family: 'Google Sans',Roboto,Arial,sans-serif;
+    font-size: 1.125rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.5rem;
+    color: #5f6368;
+    color: var(--gm-color-caption,#5f6368);
+    max-width: 30rem;
+    padding-bottom: 3em;
+}
+.text{
+    border:solid 10px;
+    width: 200px;
+    height: 40px;
+    border: blue;
+    margin-top: 13px;
+    color: rgba(0,0,0,0.87);
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+}
+.icn{
+    position:relative;
+    width:124px;
+    height: 40px;
+    top:-650px;
+}
+.A{
+    position: relative;
+    top:-10px;
+    right:125px;
+    cursor: pointer;
+    letter-spacing: .00625em;
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    color: #5f6368;
+    color: var(--gm-color-caption,#5f6368);
+}
+.p{
+    position: absolute;
+    left:150px;
+    bottom:-110px;
+
+}
